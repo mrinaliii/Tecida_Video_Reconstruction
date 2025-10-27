@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 from concurrent.futures import ThreadPoolExecutor
-from .motion_analyzer import MotionAnalyzer
+from motion_analyzer import MotionAnalyzer
 
 
 class FastReconstructor:
