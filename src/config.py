@@ -6,7 +6,8 @@ class Config:
     OUTPUT_VIDEO = "output/reconstructed_video.mp4"
     FRAME_RATE = 30
     VIDEO_DURATION = 10
-    TOTAL_FRAMES = 300
-    MAX_WORKERS = 12  # trying optimization
-    OPTICAL_FLOW_SCALE = 0.3  # reduced for speed
-    CANDIDATE_POOL_SIZE = 15  # reduced candidate search
+    TOTAL_FRAMES = FRAME_RATE * VIDEO_DURATION
+    TEMP_DIR = "temp_frames"
+
+    SIMILARITY_THRESHOLD = 0.85
+    MAX_WORKERS = 8
