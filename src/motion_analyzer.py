@@ -20,23 +20,7 @@ class MotionAnalyzer:
             gray2 = cv2.resize(gray2, new_size)
 
         flow = cv2.calcOpticalFlowFarneback(
-            gray1, gray2, None, 0.5, 3, 15, 3, 5, 1.2, 0
+            gray1, gray2, None, 0.5, 2, 10, 2, 3, 1.1, 0
         )
         motion_mag = np.mean(np.sqrt(flow[..., 0] ** 2 + flow[..., 1] ** 2))
         return motion_mag
-
-    def batch_motion_analysis(self, frames, reference_idx):
-        motions = []
-        with ThreadPoolExecutor(max_workers=self.config.MAX_WORKERS) as executor:
-            futures = []
-            for i, frame in enumerate(frames):
-                if i != reference_idx:
-                    future = executor.submit(
-                        self.compute_motion_score, frames[reference_idx], frame
-                    )
-                    futures.append((i, future))
-
-            for i, future in futures:
-                motions.append((i, future.result()))
-
-        return motions
