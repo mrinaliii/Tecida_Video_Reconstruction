@@ -1,0 +1,7 @@
+pycache/
+*.pyc
+temp_frames/
+output/
+data/
+*.log
+*.mp4
