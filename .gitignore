@@ -5,3 +5,4 @@ output/
 data/
 *.log
 *.mp4
+venv/
