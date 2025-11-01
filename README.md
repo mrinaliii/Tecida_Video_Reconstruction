@@ -34,7 +34,7 @@ Consecutive frames in natural video exhibit minimal visual changes, allowing us 
 
 ## Installation & Setup
 
-### 🧾 Prerequisites
+###  Prerequisites
 - Python **3.12+**  
 - **4GB+** RAM  
 - **1GB+** free disk space  
@@ -118,6 +118,7 @@ The solution optimizes for:
 4) Review execution_time.log for performance metrics
 
 ---
+
 
 
 
