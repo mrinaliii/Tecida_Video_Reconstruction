@@ -39,7 +39,7 @@ Consecutive frames in natural video exhibit minimal visual changes, allowing us 
 - **4GB+** RAM  
 - **1GB+** free disk space  
 
-### 📦 Dependencies
+###  Dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧪 Usage Instructions
+##  Usage Instructions
 
 ###  Quick Start Guide
 
@@ -118,6 +118,7 @@ The solution optimizes for:
 4) Review execution_time.log for performance metrics
 
 ---
+
 
 
 
