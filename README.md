@@ -1,16 +1,16 @@
 # Video Frame Reconstruction Challenge
 
 ##  Overview
-A **high-performance solution** for reconstructing **jumbled video frames** using **computer vision** and **optimization algorithms**.  
-This tool efficiently restores the **original temporal sequence** of shuffled video frames through **advanced similarity analysis** and **parallel processing**.
+A high-performance solution for reconstructing jumbled video frames using computer vision and optimization algorithms.  
+This tool efficiently restores the original temporal sequence of shuffled video frames through advanced similarity analysis and parallel processing.
 
 ---
 
 ## Algorithm Approach
 
 ### Core Methodology
-The reconstruction employs a **similarity-based graph approach** that leverages the principle of **temporal coherence** in video sequences.  
-Consecutive frames in natural video exhibit minimal visual changes, allowing us to reconstruct the original sequence by identifying frames with **maximum similarity**.
+The reconstruction employs a similarity-based graph approach that leverages the principle of temporal coherence in video sequences.  
+Consecutive frames in natural video exhibit minimal visual changes, allowing us to reconstruct the original sequence by identifying frames with maximum similarity.
 
 ---
 
@@ -105,10 +105,10 @@ The solution optimizes for:
 ---
 
 ## Technical Specifications
-Input Format: MP4 video, 30 FPS, 300 frames (10 seconds)
-Output Format: MP4 video with restored temporal sequence
-Processing: Multi-threaded, utilizes all available CPU cores
-Memory: Efficient batch processing for large frame counts
+1) Input Format: MP4 video, 30 FPS, 300 frames (10 seconds)
+2) Output Format: MP4 video with restored temporal sequence
+3) Processing: Multi-threaded, utilizes all available CPU cores
+4) Memory: Efficient batch processing for large frame counts
 
 ---
 
@@ -122,4 +122,5 @@ Memory: Efficient batch processing for large frame counts
 4) Review execution_time.log for performance metrics
 
 ---
+
 
