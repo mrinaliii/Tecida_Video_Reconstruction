@@ -1,8 +1,12 @@
-pycache/
+__pycache__/
 *.pyc
 temp_frames/
-output/*.mp4
-data/*.mp4
 *.log
 *.mp4
 venv/
+data/*.mp4
+data/*.avi
+data/*.mov
+output/*.mp4
+output/*.avi
+output/*.mov
