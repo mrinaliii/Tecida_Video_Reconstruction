@@ -47,12 +47,8 @@ pip install -r requirements.txt
 ---
 
 ## Project Structure
-project/
-├── data/               # Input video directory
-├── output/             # Reconstruction results
-├── src/                # Source code
-├── requirements.txt    # Python dependencies
-└── README.md           # Documentation
+<img width="419" height="168" alt="image" src="https://github.com/user-attachments/assets/baca2569-89f5-4479-a06d-07743c961b41" />
+
 
 ---
 
@@ -71,6 +67,7 @@ python -m venv venv
 .\venv\Scripts\Activate
 ```
 (Given command is for windows powershell)
+
 5) Install Dependencies
 ```bash
 pip install -r requirements.txt
@@ -125,3 +122,4 @@ Memory: Efficient batch processing for large frame counts
 4) Review execution_time.log for performance metrics
 
 ---
+
