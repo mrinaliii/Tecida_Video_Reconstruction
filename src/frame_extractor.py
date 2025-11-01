@@ -1,7 +1,7 @@
 import cv2
 import os
 from tqdm import tqdm
-from .config import Config
+from config import Config
 
 
 class FrameExtractor:

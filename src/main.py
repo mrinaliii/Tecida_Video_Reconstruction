@@ -3,8 +3,7 @@ import argparse
 import cv2
 from frame_extractor import FrameExtractor
 from reconstructor import VideoReconstructor
-from advanced_reconstructor import AdvancedVideoReconstructor
-from config import Config
+from config import Config  # Remove the dot
 
 
 def main():
@@ -18,7 +17,7 @@ def main():
     parser.add_argument(
         "--method",
         choices=["basic", "advanced"],
-        default="advanced",
+        default="basic",
         help="Reconstruction method",
     )
 
@@ -40,7 +39,8 @@ def main():
     if args.method == "basic":
         reconstructor = VideoReconstructor(config)
     else:
-        reconstructor = AdvancedVideoReconstructor(config)
+        print("Advanced method not available, using basic")
+        reconstructor = VideoReconstructor(config)
 
     print("Reconstructing video...")
     sequence = reconstructor.reconstruct_video(frames, config.OUTPUT_VIDEO)

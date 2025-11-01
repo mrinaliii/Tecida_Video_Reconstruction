@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from skimage.metrics import structural_similarity as ssim
 from concurrent.futures import ThreadPoolExecutor
-from .config import Config
+from config import Config  # Remove the dot
 
 
 class SimilarityAnalyzer:

@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-from .similarity_analyzer import SimilarityAnalyzer
+from similarity_analyzer import SimilarityAnalyzer
 
 
 class VideoReconstructor:
