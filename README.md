@@ -86,8 +86,7 @@ Performance Log: execution_time.log
 ## Performance Results
 
 ### Actual Performance on my System:
-  <img width="935" height="234" alt="image" src="https://github.com/user-attachments/assets/8239f119-1a16-4176-88cd-a2ea11e55231" />
-
+ <img width="941" height="242" alt="image" src="https://github.com/user-attachments/assets/1d91cc86-556f-4ad8-83b7-b9e9fbbfeefa" />
 
 ---
 
@@ -119,6 +118,7 @@ The solution optimizes for:
 4) Review execution_time.log for performance metrics
 
 ---
+
 
 
 
