@@ -86,11 +86,8 @@ Performance Log: execution_time.log
 ## Performance Results
 
 ### Actual Performance on my System:
-  Successful reconstruction of 300 frames
-  Total time: 33.63 seconds
-  Input: 300 frames @ 30 FPS (10-second video)
-  Output: output/reconstructed_video.mp4
-  Method: High-accuracy similarity analysis with MST optimization
+  <img width="935" height="234" alt="image" src="https://github.com/user-attachments/assets/8239f119-1a16-4176-88cd-a2ea11e55231" />
+
 
 ---
 
@@ -122,5 +119,6 @@ The solution optimizes for:
 4) Review execution_time.log for performance metrics
 
 ---
+
 
 
