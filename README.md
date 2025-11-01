@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 ###  Quick Start Guide
 
-1) Place input video in the data folder
+1) Place input video in the data folder and name it as "jumbled_video.mp4"
 2) Make sure you cd to the project's root directory
 3) Create a python virtual environment
   ```bash
@@ -118,6 +118,7 @@ The solution optimizes for:
 4) Review execution_time.log for performance metrics
 
 ---
+
 
 
 
